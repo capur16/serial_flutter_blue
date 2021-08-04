@@ -221,7 +221,6 @@ class SerialConnection {
       _peripheral.connect(
         refreshGatt: true,
         isAutoConnect: false,
-		requestMtu: 256,
       );
 
     } on Exception catch (ex) {
